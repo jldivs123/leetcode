@@ -1,20 +1,3 @@
-# Problem 74: Sort Colors
-## Difficulty: Medium
-
-## Statement:
-Given an array nums with n objects colored red, white, or blue, sort them in-place so that objects of the same color are adjacent, with the colors in the order red, white, and blue.
-
-We will use the integers 0, 1, and 2 to represent the color red, white, and blue, respectively.
-
-You must solve this problem without using the library's sort function.
-
-
-
-## Solutions (Python):
-
-1. Using bubble sort
-
-```python
 
 class Solution:
     def sortColors(self, nums: List[int]) -> None:
@@ -36,9 +19,3 @@ class Solution:
             if swapped == False:
                 break
         return nums
-
-                        
-```
-
-🔖 [Leetcode #75](https://leetcode.com/problems/sort-colors/description/)
-🔖 [Dutch National Flag Approach](https://leetcode.com/problems/sort-colors/solutions/3464652/beats-100-c-java-python-javascript-two-pointer-dutch-national-flag-algorithm/)
